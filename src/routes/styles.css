@@ -12,47 +12,7 @@ html {
     color: var(--qwik-dark-text);
     overflow-x: hidden;
   }
-  
-  /* HEADINGS ------------------------------------- */
-  h1,
-  h2,
-  h3 {
-    color: white;
-    margin: 0;
-  }
-  
-  h1 {
-    font-size: 3.2rem;
-    text-align: center;
-  }
-  h1 .highlight,
-  h3 .highlight {
-    color: var(--qwik-light-blue);
-  }
-  
-  h2 {
-    font-weight: 400;
-    font-size: 2.4rem;
-  }
-  h2 .highlight {
-    font-weight: 700;
-  }
-  
-  h3 {
-    font-size: 2rem;
-  }
-  
-  @media screen and (min-width: 768px) {
-    h1 {
-      font-size: 5rem;
-    }
-    h2 {
-      font-size: 3.4rem;
-    }
-    h3 {
-      font-size: 3rem;
-    }
-  }
+
   
   /* TAGS ----------------------------------------- */
   a {
@@ -86,9 +46,7 @@ html {
   .container.container-center {
     text-align: center;
   }
-  .container.container-flex {
-    /* does nothing on mobile */
-  }
+
   .container.container-spacing-xl {
     padding: 50px 40px;
   }
@@ -116,27 +74,18 @@ html {
     color: white;
     cursor: pointer;
     font-size: 0.8rem;
-    padding: 15px 20px;
+    padding: 5px 10px;
     text-align: center;
   }
   
   a.button.button-dark,
   button.button-dark {
     background: var(--qwik-dirty-black);
+    
   }
+ 
   
-  a.button.button-small,
-  button.button-small {
-    padding: 15px 25px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    a.button,
-    button {
-      font-size: 1rem;
-      padding: 23px 35px;
-    }
-  }
+
   
   /* DESIGN --------------------------------------- */
   .ellipsis {
