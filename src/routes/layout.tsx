@@ -26,7 +26,7 @@ export default component$(() => {
   useStyles$(styles);
   return (<>
     <Header />
-    <main>
+    <main class="flex flex-col justify-center items-center gap-4 p-4">
       <Slot />
     </main>
     <Footer />

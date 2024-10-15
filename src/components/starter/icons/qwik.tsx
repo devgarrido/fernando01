@@ -1,6 +1,6 @@
 export const QwikLogo = ({
-  width = 120,
-  height = 120,
+  width = 96,
+  height = 96,
 }: {
   width?: number;
   height?: number;
@@ -8,7 +8,7 @@ export const QwikLogo = ({
   <svg
     width={width}
     height={height}
-    viewBox="0 0 53 53"
+    viewBox="0 0 96 96"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
